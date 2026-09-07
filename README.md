@@ -1,10 +1,10 @@
-# Diameter Application Logic Simulator
+# Diameter Application Routing Logic Simulator
 
 Simulation-only educational demo; not a conformant or production Diameter implementation.
 
 ## Purpose
 
-This project specifies a deterministic C++11 simulator for the difficult application logic around Diameter routing: route selection, request/answer correlation, peer failure, bounded retry and failover, overload backpressure, shutdown, and explainable event output.
+This project specifies a deterministic simulator for the application logic around Diameter routing: route selection, request/answer correlation, peer failure, bounded retry and failover, overload backpressure, shutdown, and explainable event output.
 
 It is designed for learning and verification. It does not implement a Diameter network stack or a deployable telecom network function.
 
